@@ -4,7 +4,13 @@
 <style>
 body{
 	background-image:url(fond.PNG);
+	animation: fond_anim 5s linear infinite;
 }
+@keyframes fond_anim{
+	0%{background-position:0 0;}
+	100%{background-position:-2000px -2000px;}
+}
+
 audio {
    display:none;
 }
